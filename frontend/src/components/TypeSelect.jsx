@@ -15,7 +15,7 @@ function TypeSelect() {
 
     return (
         <div className="flex flex-col justify-center items-center gap-5 w-fit px-14 py-5 bg-indigo-100 rounded-lg">
-            <h1 className="text-black text-xl font-bold">Type</h1>
+            <h1 className="text-slate-700 text-xl font-bold">Type</h1>
             <ul className="flex flex-col justify-center items-start gap-2">
                 {dataType.map((value, index) => (
                     <li key={index} className="flex items-center gap-2">
@@ -28,7 +28,7 @@ function TypeSelect() {
                             checked={selectedTypes.includes(value)}
                             className="h-4 w-4 text-indigo-600 accent-indigo-600 focus:ring-indigo-500"
                         />
-                        <label htmlFor={value} className="text-black font-normal">{value}</label>
+                        <label htmlFor={value} className="text-slate-700 font-normal">{value}</label>
                     </li>
                 ))}
             </ul>
