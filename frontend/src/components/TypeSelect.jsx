@@ -14,7 +14,7 @@ function TypeSelect() {
     };
 
     return (
-        <div className="flex flex-col justify-center items-center gap-5 w-fit px-14 py-5 bg-indigo-100 rounded-lg">
+        <div className="flex flex-col justify-center items-center gap-5 w-full px-14 py-5 bg-indigo-100 rounded-lg">
             <h1 className="text-slate-700 text-xl font-bold">Type</h1>
             <ul className="flex flex-col justify-center items-start gap-2">
                 {dataType.map((value, index) => (
